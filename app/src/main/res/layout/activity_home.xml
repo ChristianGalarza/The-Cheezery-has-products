@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/title"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/ourMenu"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="20dp">
+
+        <Button android:text="@string/cold_drinks"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/first_gradient"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText"
+            android:id="@+id/button_cold_drinks">
+        </Button>
+
+        <Button
+            android:text="@string/hot_drinks"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/first_gradient"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText"
+            android:id="@+id/button_hot_drinks">
+        </Button>
+        <Button android:text="@string/sweets"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/second_gradient"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText"
+            android:id="@+id/button_sweets_drinks">
+        </Button>
+        <Button android:text="@string/salties"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/second_gradient"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText"
+            android:id="@+id/button_salties_drinks">
+        </Button>
+
+        <Button android:text="@string/combos"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/third_gradient"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText">
+        </Button>
+        <Button android:text="@string/personalized"
+            android:fontFamily="@string/ligth"
+            android:textColor="@color/blanquito"
+            android:background="@drawable/second_gradient"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:textSize="@dimen/buttonText"
+            >
+        </Button>
+
+    </GridLayout>
+</LinearLayout>

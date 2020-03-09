@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TheCheezery</string>
+    <string name="welcome">Welcome to the cheezery</string>
+    <string name="description">Home to the most wonderful desserts ever seen by the human being</string>
+    <string name="get_started">Get started!</string>
+
+    <!--fonts family -->
+    <string name="ligth">sans-serif-ligh</string>
+    <string name="condensed">sans-serif-condensed</string>
+    <string name="thin">sans-serif-thin</string>
+    <string name="medium">sans-serif-medium</string>
+    <string name="regular">sans-serif</string>
+
+    <!-- register fields -->
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="conditions">I have read and acept terms and conditions of the Cheezery</string>
+    <string name="sing_in">Sign in</string>
+
+    <string name="ourMenu">Our Menu</string>
+    <string name="cold_drinks">Cold drinks</string>
+    <string name="hot_drinks">Hot drinks</string>
+    <string name="sweets">Sweets</string>
+    <string name="salties">Salties</string>
+    <string name="combos">Combos</string>
+    <string name="personalized">Personalized</string>
+
+
+</resources>

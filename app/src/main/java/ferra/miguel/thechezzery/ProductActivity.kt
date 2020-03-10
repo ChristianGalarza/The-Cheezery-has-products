@@ -57,6 +57,7 @@ class ProductActivity : AppCompatActivity() {
         coldDrinks.add(Product("Matcha Latte", R.drawable.matcha, "Leafy taste of matcha green tea powder with creamy milk and a little sugar for a flavor balance that will leave you feeling ready and raring to go.", 4))
         coldDrinks.add(Product("Oreo Milkshake", R.drawable.oreomilkshake, "Chocolate ice cream, and oreo cookies. Topped with whipped cream with cocoa and chocolate syrup.", 7))
         coldDrinks.add(Product("Peanut Milkshake", R.drawable.peanutmilkshake,"Vanilla ice cream, mixed with peanut butter and chocolate.", 7))
+        title_products.setImageResource(R.drawable.cold_drinks)
     }
 
     fun cargarHotDrinks(){
@@ -66,6 +67,7 @@ class ProductActivity : AppCompatActivity() {
         hotDrinks.add(Product("Chai Latte", R.drawable.chailatte, "Spiced tea concentrate with milk", 6))
         hotDrinks.add(Product("Capuccino", R.drawable.capuccino, "A cappuccino is an espresso-based coffee drink, prepared with steamed foam.", 7))
         hotDrinks.add(Product("American coffee", R.drawable.americano, "Espresso with hot water", 2))
+        title_products.setImageResource(R.drawable.hot_drinks)
     }
 
     fun cargarSweets(){
@@ -75,6 +77,7 @@ class ProductActivity : AppCompatActivity() {
         sweets.add(Product("Red Velvet cake", R.drawable.redvelvetcake, "Soft, moist, buttery cake topped with an easy cream cheese frosting.", 6))
         sweets.add(Product("Cherry cheesecake", R.drawable. strawberrycheesecake, "This cherry topped cheesecake is positively creamy and delicious and will be your new favorite dessert.", 7))
         sweets.add(Product("Tiramisu", R.drawable.tiramisu, "Coffee-flavored Italian dessert", 6))
+        title_products.setImageResource(R.drawable.sweets)
     }
 
     fun cargarSalties(){
@@ -83,6 +86,7 @@ class ProductActivity : AppCompatActivity() {
         salties.add(Product("Panini", R.drawable.hampanini, "Sandwich made with Italian bread served warmed by grilling.", 4))
         salties.add(Product("Philly cheese steak", R.drawable. phillycheesesteak, "Smothered in grilled onions, green peppers, mushrooms, and Provolone.", 6))
         salties.add(Product("Nachos", R.drawable. nachos, "Tortilla chips layered with beef and melted cheddar cheese. Served with fried beans, guacamole, pico de gallo, and sour topping.", 7))
+        title_products.setImageResource(R.drawable.salties)
     }
 
     private class AdaptadorProductos:BaseAdapter{
